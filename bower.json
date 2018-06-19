@@ -1,0 +1,24 @@
+{
+  "name": "phenix-web-detect-browser",
+  "description": "Web Detect Browser",
+  "keywords": [
+    "Browser"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/PhenixRTS/WebDetectBrowser",
+  "private": false,
+  "main": "dist/phenix-web-detect-browser.min.js",
+  "moduleType": "amd",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PhenixRTS/WebDetectBrowswer.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "ignore": [
+    "package.json",
+    ".*"
+  ]
+}

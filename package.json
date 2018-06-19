@@ -1,0 +1,23 @@
+{
+  "name": "phenix-web-detect-browser-bower-registration",
+  "private": false,
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PhenixRTS/WebDetectBrowser.git"
+  },
+  "scripts": {
+    "preinstall": "npm prune",
+    "postinstall": "bower install --config.interactive=false",
+    "pretest": "npm install"
+  },
+  "dependencies": {
+    "phenix-web-detect-browser": "^2018.2.1"
+  },
+  "engines": {
+    "node": "8.11.1"
+  },
+  "devDependencies": {
+    "bower": "1.7.9"
+  }
+}
